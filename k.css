@@ -5,11 +5,12 @@ h1
 {
  animation-duration: 12s;
  animation-name:slidein;
-  
+  opacity: 0;
 }
 h2
 {
  animation-duration: 12s;
+ opacity: 0;
  animation-name:fadein;
 }
 a
