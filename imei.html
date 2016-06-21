@@ -1,0 +1,16 @@
+﻿<html>
+<title>imei 產生器</title>
+<head>
+<link type="text/css" rel="stylesheet" href=imei.css>
+</head>
+<body>
+
+<form name="form1" method="post" action="chkimei.asp" onSubmit="return false;">
+<h1>請輸入IMEI前12碼:</h1>
+<input type="text" id="imei" name="imei" value="" maxlength="12" size="20" placeholder="前12碼">
+<input type="button" name="button" value="送出" onclick="javascript: maker();">
+<input type="reset" name="reset" value="清除">
+
+<script type='text/javascript' src='imei.js'></script>
+
+</body>
